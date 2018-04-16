@@ -1,5 +1,5 @@
 # GDPR cookie compliance package
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](paypal.me/Jyxon)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/Jyxon)
 The new [GDPR Law](https://www.itgovernance.eu/blog/en/how-the-gdpr-affects-cookie-policies/) brings some changes with it to the behavior of cookies. This package provides a simple implementation that can be used to comply with these new set of rules. This law is targeting cookies that can be used to identify a visitor. This identification through cookies is now considered personal information, so it requires extra care and consent.
 Visitors of your website need to have the following two abilities surrounding cookies:
 - Explicitly accept cookies, meaning they have to `opt-in` to use cookies that could possible identify them.
@@ -184,3 +184,6 @@ public function setCookie(string $scope, string $name, string $value = "", int $
  */
 public function getCookie(string $scope, string $name, string $path = "", string $domain = "", bool $secure = false, bool $httponly = false);
 ```
+
+## Feedback
+We like to get some feedback on this package. You can do so by creating an issue on GitHub.
