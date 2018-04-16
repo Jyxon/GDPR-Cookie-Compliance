@@ -21,6 +21,7 @@ function cookie_tool()
                     return cookie.substring(name.length, cookie.length);
                 }
             }
+
             return "";
         }),
         deleteCookie: (function (name, path = "/")

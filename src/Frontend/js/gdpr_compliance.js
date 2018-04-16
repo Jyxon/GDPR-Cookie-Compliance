@@ -48,6 +48,7 @@ function gdpr_compliance(cookie_settings, cookie_tool)
                     '</label>' +
                     '</div>';
             }
+
             cookieBar += '</form>' +
                 '<button type="button" class="gdpr_cookie_bar_accept">' + this.cookieSettings.messages.cookiebar_button + '</button>' +
                 '</div>';
@@ -84,6 +85,7 @@ function gdpr_compliance(cookie_settings, cookie_tool)
                     allowed.push(elementName);
                 }
             }
+
             cookieTool.setCookie('gdpr_cookie', allowed.join(","), 365);
             document.body.querySelector(".gdpr_cookie_bar")
                 .classList.add("hidden");
@@ -100,6 +102,7 @@ function gdpr_compliance(cookie_settings, cookie_tool)
                     allowed.push(scopeSettings[i].scope);
                 }
             }
+
             return allowed;
         }),
         getShown: (function ()

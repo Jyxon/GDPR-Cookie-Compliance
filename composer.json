@@ -19,5 +19,11 @@
         {
             "Jyxon\\GdprCookieCompliance\\": "src/"
         }
+    },
+    "archive":
+    {
+        "exclude": [
+            "/.gitignore"
+        ]
     }
 }

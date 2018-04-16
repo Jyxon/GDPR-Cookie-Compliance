@@ -21,6 +21,7 @@ function gdpr_cookie(compliance_tool, cookie_tool)
                 {
                     return varFull.substring(searchName.length, varFull.length);
                 }
+
                 cookieTool.deleteCookie(name);
             }
         }),
