@@ -1,4 +1,5 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/Jyxon)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # GDPR cookie compliance package
 The new [GDPR Law](https://www.itgovernance.eu/blog/en/how-the-gdpr-affects-cookie-policies/) brings some changes with it to the behavior of cookies. This package provides a simple implementation that can be used to comply with these new set of rules. This law is targeting cookies that can be used to identify a visitor. This identification through cookies is now considered personal information, so it requires extra care and consent.
@@ -186,5 +187,20 @@ public function setCookie(string $scope, string $name, string $value = "", int $
 public function getCookie(string $scope, string $name, string $path = "", string $domain = "", bool $secure = false, bool $httponly = false);
 ```
 
+## Demo
+A live example is available here: [https://gdpr-cookie-example.jyxon.com/](https://gdpr-cookie-example.jyxon.com/).
+
 ## Feedback
 We like to get some feedback on this package. You can do so by creating an issue on GitHub.
+
+## Donate
+If this package helped you out, please consider [donating](https://paypal.me/Jyxon).
+
+## MIT License
+Copyright 2018 Jyxon
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
