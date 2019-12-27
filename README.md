@@ -187,9 +187,6 @@ public function setCookie(string $scope, string $name, string $value = "", int $
 public function getCookie(string $scope, string $name, string $path = "", string $domain = "", bool $secure = false, bool $httponly = false);
 ```
 
-## Demo
-A live example is available here: [https://gdpr-cookie-example.jyxon.com/](https://gdpr-cookie-example.jyxon.com/).
-
 ## Feedback
 We like to get some feedback on this package. You can do so by creating an issue on GitHub.
 

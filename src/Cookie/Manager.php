@@ -51,9 +51,6 @@ class Manager
      * @param boolean $httponly
      *
      * @return bool
-     *
-     * @SuppressWarnings(PHPMD.Superglobals)
-     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public function setCookie(
         string $scope,
@@ -87,9 +84,6 @@ class Manager
      * @param  boolean $httponly
      *
      * @return mixed
-     *
-     * @SuppressWarnings(PHPMD.Superglobals)
-     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public function getCookie(
         string $scope,

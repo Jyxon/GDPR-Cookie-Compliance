@@ -47,8 +47,6 @@ class Settings
      * Sets the local variable of $allowedCookies with the contents of the "gdpr_cookie" contents.
      *
      * @return void
-     *
-     * @SuppressWarnings(PHPMD.Superglobals)
      */
     private function setAllowedCookies()
     {
