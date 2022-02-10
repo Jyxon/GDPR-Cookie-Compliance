@@ -5,8 +5,6 @@
  */
 namespace Jyxon\GdprCookieCompliance\Cookie;
 
-use Jyxon\GdprCookieCompliance\Cookie\Settings;
-
 class Manager
 {
     /**
